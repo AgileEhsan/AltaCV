@@ -132,6 +132,9 @@
 \newcommand{\githubsymbol}{\faGithub}
 \newcommand{\orcidsymbol}{\aiOrcid}
 \newcommand{\mailsymbol}{\faEnvelope}
+\newcommand{\visasymbol}{\faCcVisa}
+\newcommand{\carsymbol}{\faCar}
+\newcommand{\stackoverflowsymbol}{\faStackOverflow\faStackExchange }
 
 \newcommand{\printinfo}[2]{\mbox{\textcolor{accent}{\normalfont #1}\hspace{0.5em}#2\hspace{2em}}}
 
@@ -147,6 +150,9 @@
 \newcommand{\github}[1]{\printinfo{\githubsymbol}{#1}}
 \newcommand{\orcid}[1]{\printinfo{\orcidsymbol}{#1}}
 \newcommand{\location}[1]{\printinfo{\locationsymbol}{#1}}
+\newcommand{\visa}[1]{\printinfo{\visasymbol}{#1}}
+\newcommand{\car}[1]{\printinfo{\carsymbol}{#1}}
+\newcommand{\stackoverflow}[1]{\printinfo{\stackoverflowsymbol}{#1}}
 
 \newcommand{\personalinfo}[1]{\def\@personalinfo{#1}}
 
